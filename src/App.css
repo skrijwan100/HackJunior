@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+body{
+  background-color: #680ce7;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.navlink{
+  padding: 3px;
+  transition: all 0.4s ease-in-out;
+  &:hover{
+    background-color: #680ce7;
+    color: whitesmoke;
+    border-radius: 15px;
+  }
+}
