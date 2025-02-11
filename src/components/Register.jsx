@@ -3,7 +3,11 @@ import React from 'react'
 export default function Register() {
   return (
     <div>
-      This is  Register
+      <div className="mainbox">
+        <form action="">
+          <input type="text" placeholder='Enter your full name' />
+        </form>
+      </div>
     </div>
   )
 }

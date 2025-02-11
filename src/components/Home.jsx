@@ -1,6 +1,7 @@
 import React from 'react'
 import "../App.css"
 import "../media.css"
+import { Link } from 'react-router-dom'
 // import Navbar from './components/Navbar'
 import logo from "../assets/Hackjunior logo.png"
 import Footar from './Footar'
@@ -50,6 +51,11 @@ export default function Home() {
                 </header>
 
 
+            </div>
+            <div className="registerbtn" style={{display:"flex",alignItems:"center",justifyContent:"center",marginTop:"25px"}}>
+              <Link to="/register">
+              <button>Register</button>
+              </Link>  
             </div>
             <Footar/>
         </>
