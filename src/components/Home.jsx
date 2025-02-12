@@ -54,7 +54,7 @@ export default function Home() {
             </div>
             <div className="registerbtn" style={{display:"flex",alignItems:"center",justifyContent:"center",marginTop:"25px"}}>
               <Link to="/register">
-              <button>Register</button>
+              <button className='regbtn' style={{height:"60px",width:"200px",borderRadius:"10px",outline:"none",border:"none",fontFamily:"Tektur",fontSize:"20px"}}>Register</button>
               </Link>  
             </div>
             <Footar/>

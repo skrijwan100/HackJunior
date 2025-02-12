@@ -24,3 +24,11 @@ body{
   height: 90px;
  box-shadow:  2px 10px 6px 0px #000000d9;
 }
+.regbtn{
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    color: white;
+    background-color: #680ce7;
+    border: 2.5px solid white !important;
+  }
+}
