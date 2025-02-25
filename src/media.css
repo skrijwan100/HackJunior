@@ -1,0 +1,17 @@
+@media (max-width: 490px) {
+   .logopic{
+    display: none;
+   }
+   .mainNavBox{
+      display: block;
+      /* justify-content: center ; */
+     }
+     .navlink{
+      margin-top: 20px;
+     }
+     .headertext{
+      font-size: 60px !important;
+     }
+  }
+
+

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+15&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Jersey+15&family=Play:wght@400;700&family=Rubik+Vinyl&family=Tektur:wght@400..900&display=swap');
 body{
   background-color: #680ce7;
 }
@@ -8,6 +8,7 @@ body{
 }
 .navlink{
   padding: 3px;
+  margin-left: 10px;
   transition: all 0.4s ease-in-out;
   &:hover{
     background-color: #680ce7;
@@ -15,7 +16,26 @@ body{
     border-radius: 15px;
   }
 }
+<<<<<<< HEAD
 
 .paLR{
   padding: 0 1rem;
 }
+=======
+.mainNavBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a1029;
+  height: 90px;
+ box-shadow:  2px 10px 6px 0px #000000d9;
+}
+.regbtn{
+  transition: all 0.3s ease-in-out;
+  &:hover{
+    color: white;
+    background-color: #680ce7;
+    border: 2.5px solid white !important;
+  }
+}
+>>>>>>> e3bb28fc564e7eea2a1537565b1cc29661a71d00
