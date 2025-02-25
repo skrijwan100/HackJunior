@@ -3,6 +3,14 @@ import "../App.css"
 import "../media.css"
 import { Link } from 'react-router-dom'
 // import Navbar from './components/Navbar'
+<<<<<<< HEAD
+import logo from "../assets/Hackjunior_logo.png"
+import Navbar from './Navbar'
+export default function Home() {
+    return (
+        <>
+            <Navbar />
+=======
 import logo from "../assets/Hackjunior logo.png"
 import Footar from './Footar'
 export default function Home() {
@@ -40,6 +48,7 @@ export default function Home() {
 
 
             </nav>
+>>>>>>> e3bb28fc564e7eea2a1537565b1cc29661a71d00
 
             <div id='home'>
                 <header className='headertext' style={{ fontSize: "70px", fontWeight: "400", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" ,textShadow:"3px 9px 6px #000000db"}}>

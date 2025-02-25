@@ -16,6 +16,12 @@ body{
     border-radius: 15px;
   }
 }
+<<<<<<< HEAD
+
+.paLR{
+  padding: 0 1rem;
+}
+=======
 .mainNavBox{
   display: flex;
   justify-content: space-between;
@@ -32,3 +38,4 @@ body{
     border: 2.5px solid white !important;
   }
 }
+>>>>>>> e3bb28fc564e7eea2a1537565b1cc29661a71d00
